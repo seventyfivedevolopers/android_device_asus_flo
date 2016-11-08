@@ -31,8 +31,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 
 # Try to build the kernel Inline // knkem sebebi bu altindaki 3 satir
 TARGET_KERNEL_SOURCE := kernel/google/msm
-TARGET_KERNEL_CONFIG := aicp_flo_defconfig
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
+TARGET_KERNEL_CONFIG := flo_defconfig
 
 
 BOARD_USES_ALSA_AUDIO:= true
